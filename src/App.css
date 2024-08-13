@@ -1,0 +1,10 @@
+.Nav-span {
+  width: 0;
+  transition: 0.4s ease-in-out;
+  height: 2px;
+  background-color: #6c54e3;
+}
+
+.Links:hover .Nav-span {
+  width: 100%;
+}
