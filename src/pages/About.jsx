@@ -61,7 +61,7 @@ export default function About() {
               </div>
               <div className="rounded-md dark:bg-[#5b04bc] text-center text-xs flex flex-col w-[80px] p-2 shadow-lg">
                 <h1 className="font-bold text-sm text-[#6c54e3] dark:text-neutral-200">
-                  20+
+                  5+
                 </h1>
                 <p className="dark:text-neutral-200 text-black ">
                   projects completed
