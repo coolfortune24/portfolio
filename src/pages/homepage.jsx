@@ -21,23 +21,24 @@ export default function HomePage() {
       <div className="flex md:flex-row flex-col mt-[0px] justify-start md:justify-between md:w-[80%] w-full">
         <div className="mt-[80px] md:mt-0 flex md:flex-row flex-col-reverse md:w-[75%] w-full justify-between md:items-center md:ml-0 ml-4 md:mb-20">
           <div className="flex md:flex-col flex-row gap-4 text-[#6c54e3] md:mt-0 mt-[30px]">
-            <a href="https://twitter.com/StanLee53959205">
+            <a href="https://x.com/FortuneEfregede?s=09">
               <FaTwitter className="cursor-pointer dark:text-neutral-200 hover:-translate-y-1 duration-150 transition-all text-xl" />
             </a>
-
-            <FaGithub className="cursor-pointer dark:text-neutral-200 hover:-translate-y-1 duration-150 transition-all text-xl" />
-            <FaLinkedin className="cursor-pointer dark:text-neutral-200 hover:-translate-y-1 duration-150 transition-all text-xl" />
-            <a href="#">
+            <a href="https://github.com/Bigtunzz">
+              <FaGithub className="cursor-pointer dark:text-neutral-200 hover:-translate-y-1 duration-150 transition-all text-xl" />
+            </a>
+            <FaLinkedin href="https://linkedin.com/in/fortune-efregede" className="cursor-pointer dark:text-neutral-200 hover:-translate-y-1 duration-150 transition-all text-xl" />
+            <a href="https://instagram.com/fortuneefregede?igsh=ODR2MG02bnM2MTY3">
               <RiInstagramFill className="cursor-pointer dark:text-neutral-200 hover:-translate-y-1 duration-150 transition-all text-xl" />
             </a>
           </div>
           <div className="w-[80%] gap-3 flex flex-col dark:text-neutral-200 text-slate-700">
             <h1 className="font-bold dark:text-neutral-200  text-black md:text-3xl text-2xl">
-              Hi, I'm Stanlee
+              Hi, It`s Fortune Here
             </h1>
             <h2 className="font-semibold">frontend Developer</h2>
             <p className="text-sm md:text-lg mt-3">
-              I'm passionate about developing user-friendly and responsive
+              I`m passionate about developing user-friendly and responsive
               interfaces. With strong foundation in HTML, CSS, Javascript, React
               and other Frameworks, connecting with like-minded friends and
               creating amazing things. I create modern web applications that
@@ -46,7 +47,7 @@ export default function HomePage() {
             <button className=" md:mt-8 mt-12 dark:bg-[#5b04bc]  w-fit px-3 py-2 bg-[#6c54e3] text-white rounded-md shadow-md hover:bg-[#8876e1] duration-150 transition-all">
               <Link
                 className="flex flex-row gap-2 items-center"
-                to="https://wa.me/qr/X3EWPKC7LIIUB1"
+                to="https://wa.me/qr/7IEQDH3XD7TP1"
               >
                 Get in touch <FaWhatsapp />
               </Link>

@@ -25,7 +25,7 @@ export const Navbar = () => {
       >
         <div>
           <h1 className="text-lg font-bold text-black dark:text-white">
-            Stanlee <span className="text-[#6c54e3]">*</span>
+            Fortune <span className="text-[#6c54e3]">*</span>
           </h1>
         </div>
         <div className="flex flex-row gap-5 z-50">
