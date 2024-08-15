@@ -39,7 +39,7 @@ export default function About() {
 
           <div className="flex flex-col gap-4 md:w-[45%] w-full items-start">
             <p className="w-full text-start text-sm select-none dark:text-neutral-200">
-              Born in the eastern part of Nigeria, I began my journey as a
+              Born in the Southern part of Nigeria, I began my journey as a
               frontend developer about a year ago, driven by a passion for
               creativity and competency. I've had the opportunity to work on
               several projects using several frameworks and library and have
@@ -67,12 +67,12 @@ export default function About() {
                   projects completed
                 </p>
               </div>
-              <div className="rounded-md dark:bg-[#5b04bc] text-center text-xs flex flex-col w-[80px] p-2 shadow-md">
+              {/* <div className="rounded-md dark:bg-[#5b04bc] text-center text-xs flex flex-col w-[80px] p-2 shadow-md">
                 <h1 className="font-bold text-sm text-[#6c54e3] dark:text-neutral-200">
                   6+
                 </h1>
                 <p className="dark:text-neutral-200 text-black">Open source</p>
-              </div>
+              </div> */}
             </div>
             <button className="hover:bg-[#8876e1] duration-150 transition-all flex flex-row gap-2 outline-none mt-3  w-fit px-3 py-2 bg-[#6c54e3] text-white rounded-md text-sm dark:bg-[#5b04bc]">
               <a

@@ -1,41 +1,27 @@
 import { Navbar } from "../components/Navbar";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import Project1 from "../assets/project1.jpg";
-import Project2 from "../assets/suitplus-image1.jpg";
-import Project3 from "../assets/mortgage-cal.jpg";
-import Project4 from "../assets/stacks/project4.jpg";
+import Project1 from "../assets/img generator with api.png";
+import Project2 from "../assets/Evernote_Hompage.png";
+// import Project3 from "../assets/mortgage-cal.jpg";
+// import Project4 from "../assets/stacks/project4.jpg";
 import { DarkmodeContext } from "../contexts/darkmodeContext";
 import { useContext } from "react";
 const ProjectData = [
   {
     image: Project2,
-    title: "SUIT-PLUS",
+    title: "Evernote Hompage",
     description:
-      " Suit-plus is an open source internship project, focused on building a web-app that pprovides different kinds of suits for men and addresses several market needs and problems.",
+      " This is a replication of the evernote hompage",
+      url: "https://evernote-homepage.vercel.app/"
   },
   {
     image: Project1,
-    title: "Stanlee's Mart",
+    title: "Image Viewer From API",
     description:
-      "This is a web-based shopping cart application that allows users to browse and add products to their cart. it features a user-friendly interface and other modern website features",
-    url: "https://stanlee-mart.vercel.app/",
-  },
-
-  {
-    image: Project3,
-    title: "mortgage calculator",
-    description:
-      "This is a modern calculator that checks the mortgage based on the inputs provided by the user and displays the monthly and total payment.",
-    url: "https://stanlee-mortgage-calculator.vercel.app/",
-  },
-  {
-    image: Project4,
-    title: "som23-collection",
-    description:
-      "This is a web-based shopping cart application that allows users to view, add and remove products to their cart. Featuring user-friendly interface and other modern website features, built with javascript and CSS",
-    url: "https://stanley-enumahh.github.io/SOM23-COLLECTION/",
-  },
+      "This generates images from your input. So just type in the types of images you want to see",
+    url: "https://using-image-api-2gkd.vercel.app/",
+  }
 ];
 
 export default function Projects() {
